@@ -1,0 +1,65 @@
+# ==========================================================
+# FILE CẤU HÌNH GIFTCODE SERVER (GITHUB RAW)
+# ==========================================================
+# Lưu ý:
+# 1. Bạn có thể sửa file này trực tiếp trên Web.
+# 2. Server sẽ tự động cập nhật sau mỗi 5 phút (theo config sync-interval).
+# 3. Để lấy link cho vào server, nhớ bấm nút "Raw" trên GitHub.
+# ==========================================================
+
+# --- LOẠI 1: CODE TÂN THỦ CƠ BẢN ---
+# Dành cho người mới, ai cũng nhập được, mỗi người 1 lần.
+TANTHU:
+  limit-player: 1            # Mỗi người chỉ nhập 1 lần
+  ip-check: true             # Chặn clone (1 IP chỉ nhập 1 lần)
+  min-playtime: 30           # Phải chơi đủ 30 phút mới được nhập
+  require-empty-slot: true   # Phải dọn túi đồ trống mới cho nhận
+  message: "&#00ff00Chào mừng bạn đến với Server! Đây là chút quà mọn."
+  rewards:
+    - "MONEY:363"          # Cộng 363 tiền
+    - "XP:500"               # Cộng 500 XP
+    - "ITEM:BREAD 32"  # 16 Bò bít tết 
+
+# --- LOẠI 2: FLASH CODE (CODE CHỚP NHOÁNG) ---
+# Dùng tính năng expire-after. Code này sẽ tự hủy sau một khoảng thời gian
+# tính từ lúc Server tải nó về lần đầu tiên.
+FLASH_SALE_TRUA:
+  limit-global: 20           # Chỉ dành cho 20 người nhanh tay nhất
+  limit-player: 1
+  expire-after: "2h30m15s"         # Tự hết hạn sau 2 tiếng 30 phút 15 giây (kể từ lúc server sync)
+  message: "&6&lChúc mừng! Bạn là một trong những người nhanh tay nhất."
+  rewards:
+    - "MONEY:1000"
+    - "ITEM:IRON_BLOCK 1"
+    - "CONSOLE:acb {player} 20" # Tặng 100 block claim đất (nếu dùng GriefPrevention)
+
+# --- LOẠI 3: CODE SỰ KIỆN (CÓ NGÀY HẾT HẠN CỐ ĐỊNH) ---
+# Dùng cho các dịp lễ, tết. Hết ngày đó là không nhập được nữa.
+EVENT_NAM_MOI:
+  limit-player: 1
+  expire: "01/01/2026"       # Hết hạn vào ngày 1/1/2026
+  message: "&#ff0000Chúc mừng năm mới! Lì xì cho bạn nè."
+  rewards:
+    - "MONEY:3636"          # Tiền phát tài
+    - "ITEM:FIREWORK_ROCKET 64"
+
+# --- LOẠI 4: CODE VIP (CÓ QUYỀN HẠN & RANDOM QUÀ) ---
+# Chỉ người chơi có quyền (permission) mới nhập được.
+# Quà tặng là ngẫu nhiên (chọn 1 trong list).
+CODE_VIP_PRO:
+  permission: "hiec.code.vip" # Chỉ rank VIP mới nhập được
+  limit-player: 1
+  random-rewards: true       # Random quà (True = Chỉ nhận 1 món ngẫu nhiên trong list)
+  message: "&bCảm ơn bạn đã ủng hộ Server (Gói quà ngẫu nhiên)!"
+  rewards:
+    - "MONEY:2000"         # Có cơ hội nhận 2k
+    - "ITEM:DIAMOND 2" # Hoặc nhận Diamond
+    - "ITEM:GOLD 36"        # Hoặc nhận Beacon
+
+# --- LOẠI 5: CODE ĐỀN BÙ (KHÔNG GIỚI HẠN THỜI GIAN) ---
+# Dùng khi server bảo trì xong.
+DENBU_BAOTRI:
+  limit-player: 1
+  rewards:
+    - "MONEY:1000"
+    - "ITEM:GOLDEN_APPLE 2"
