@@ -10,10 +10,10 @@ huongdan:
     - "&a--- HƯỚNG DẪN TÂN THỦ ---"
     - "&b/rtp &7: Dịch chuyển ngẫu nhiên"
     - "&b/sethome &7: Đặt nhà"
-    - "&b/money &7: Xem tiền"
+    - "&b/money &7: Xem menu tiền"
 
 chaomung:
   onjoin: true # Sẽ hiện khi người chơi vào server
   msg:
-    - "&#00ff00Chào mừng %player% đến với Ethereal Realms!"
+    - "&#00ff00Chào mừng %player% đến với SMP!"
     - "&7Dùng lệnh &f/menu &7để bắt đầu."
