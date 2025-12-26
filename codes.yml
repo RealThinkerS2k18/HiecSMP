@@ -63,3 +63,13 @@ DENBU_BAOTRI:
   rewards:
     - "MONEY:1000"
     - "ITEM:GOLDEN_APPLE 2"
+
+TETO:
+  limit-player: 1            # Mỗi người chỉ nhập 1 lần
+  ip-check: true             # Chặn clone (1 IP chỉ nhập 1 lần)
+  require-empty-slot: true   # Phải dọn túi đồ trống mới cho nhận
+  message: "&cBạn nhận được 32 Baguette (đơn giản vì Teto thích Baguette)"
+  rewards:
+    - "MONEY:401"          # Cộng 363 tiền
+    - "XP:401"               # Cộng 500 XP
+    - "ITEM:BREAD 32"
