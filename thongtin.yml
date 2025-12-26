@@ -17,13 +17,13 @@ huongdan:
     - "&b/money &7: Xem menu tiền"
 
 chaomung:
-  onjoin: true # Sẽ hiện khi người chơi vào server
+  onjoin: true
   msg:
     - "&e&l--- [THE SMP] ---&r"
-    - "&fChào mừng&b %player%&f đến với SMP!"
+    - "&fChào mừng &b%player%&f đến với SMP!"
     - "&fSử dụng lệnh &a/thongtin&f để biết thêm các thông tin về máy chủ."
-    - "&eVí dụ:&a /thongtin huongdan&f để xem qua hướng dẫn tân thủ."
-    - "&fBạn có thể hỏi&6 staff&f hoặc&a người chơi khác&f nếu còn thắc mắc."
-    - "&fHãy đọc qua&a luật&f của server để biết&c những điều cần tránh&f nhé"
-    - "&fNếu gặp người chơi&c gian lận&f,&c phá luật&f, v.v bạn có thể dùng&6 /tocao&f để tố cáo họ cho&6 staff."
-    - "&aChúc bạn có quãng thời gian vui vẻ trong server nhé!!."
+    - "&eVí dụ: &a/thongtin huongdan&f để xem qua hướng dẫn tân thủ."
+    - "&fBạn có thể hỏi &6staff&f hoặc &angười chơi khác&f nếu còn thắc mắc."
+    - "&fHãy đọc qua &aluật&f của server để biết &cnhững điều cần tránh&f nhé"
+    - "&fNếu gặp người chơi &cgian lận&f, &cphá luật&f, v.v bạn có thể dùng &6/tocao&f để tố cáo họ cho &6staff."
+    - "&aChúc bạn có quãng thời gian vui vẻ trong server nhé!!!."
