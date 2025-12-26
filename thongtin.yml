@@ -1,9 +1,13 @@
 luat:
   msg:
-    - "&#ff0000=== LUẬT SERVER ==="
-    - "&e1. Không hack/cheat"
-    - "&e2. Không spam chat"
-    - "&e3. Tôn trọng admin"
+    - "&c&l[LUẬT SERVER]&r"
+    - "&eVui lòng tuân thủ tuyệt đối luật, nếu không bạn sẽ bị ban"
+    - "&f1. Tuyệt đối không sử dụng hack/cheat"
+    - "&f2. Không lợi dụng bug, glitch"
+    - "&f3. Tôn trọng người chơi khác và các staff"
+    - "&f4. Hãy là người chơi văn minh, không spam chat, không nói tục/chửi thề."
+    - "&f5. Không dung túng cho hành vi hack/cheat, bạn có thể dùng &b/tocao&f để tố cáo hành vi gian lận"
+    - "&f6. Không nghe lời dụ dỗ của người khác, tránh mất mát, staff &6không chịu trách nhiệm&f."
 
 huongdan:
   msg:
@@ -15,5 +19,11 @@ huongdan:
 chaomung:
   onjoin: true # Sẽ hiện khi người chơi vào server
   msg:
-    - "&#00ff00Chào mừng %player% đến với SMP!"
-    - "&7Dùng lệnh &f/menu &7để bắt đầu."
+    - "&e&l--- [THE SMP] ---&r
+    - "&fChào mừng&b %player%&f đến với SMP!"
+    - "&fSử dụng lệnh &a/thongtin&f để biết thêm các thông tin về máy chủ."
+    - "&eVí dụ:&a /thongtin huongdan&f để xem qua hướng dẫn tân thủ."
+    - "&fBạn có thể hỏi&6 staff&f hoặc&a người chơi khác&f nếu còn thắc mắc."
+    - "&fHãy đọc qua&a luật&f của server để biết&c những điều cần tránh&f nhé
+    - "&fNếu gặp người chơi&c gian lận&f,&c phá luật&f, v.v bạn có thể dùng&6 /tocao&f để tố cáo họ cho&6 staff."
+    - "&aChúc bạn có quãng thời gian vui vẻ trong server nhé!!."
