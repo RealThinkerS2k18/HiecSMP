@@ -19,7 +19,7 @@ huongdan:
 chaomung:
   onjoin: true # Sẽ hiện khi người chơi vào server
   msg:
-    - "&e&l--- [THE SMP] ---&r
+    - "&e&l--- [THE SMP] ---&r"
     - "&fChào mừng&b %player%&f đến với SMP!"
     - "&fSử dụng lệnh &a/thongtin&f để biết thêm các thông tin về máy chủ."
     - "&eVí dụ:&a /thongtin huongdan&f để xem qua hướng dẫn tân thủ."
