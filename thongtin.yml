@@ -1,0 +1,19 @@
+luat:
+  msg:
+    - "&#ff0000=== LUẬT SERVER ==="
+    - "&e1. Không hack/cheat"
+    - "&e2. Không spam chat"
+    - "&e3. Tôn trọng admin"
+
+huongdan:
+  msg:
+    - "&a--- HƯỚNG DẪN TÂN THỦ ---"
+    - "&b/rtp &7: Dịch chuyển ngẫu nhiên"
+    - "&b/sethome &7: Đặt nhà"
+    - "&b/money &7: Xem tiền"
+
+chaomung:
+  onjoin: true # Sẽ hiện khi người chơi vào server
+  msg:
+    - "&#00ff00Chào mừng %player% đến với Ethereal Realms!"
+    - "&7Dùng lệnh &f/menu &7để bắt đầu."
