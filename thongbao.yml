@@ -1,0 +1,7 @@
+# Thời gian giữa các lần thông báo (Phút)
+broadcast-after: 3
+
+msg:
+  - "&#ffaa00[TIP] &fBạn có thể dùng &e/menu &fđể mở bảng điều khiển."
+  - "&#ffaa00[TIP] &fĐừng quên vote server để nhận quà nhé!"
+  - "&#ff0000[CẢNH BÁO] &fTuyệt đối không sử dụng Hack/Mod gian lận."
