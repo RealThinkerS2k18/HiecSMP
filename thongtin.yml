@@ -19,7 +19,7 @@ huongdan:
 chaomung:
   onjoin: true
   msg:
-    - ""
+    - " "
     - "&e&l--- [THE SMP] ---&r"
     - "&fChào mừng &b%player%&f đến với SMP!"
     - "&fSử dụng lệnh &a/thongtin&f để biết thêm các thông tin về máy chủ."
@@ -28,4 +28,4 @@ chaomung:
     - "&fHãy đọc qua &aluật&f của server để biết &cnhững điều cần tránh&f nhé"
     - "&fNếu gặp người chơi &cgian lận&f, &cphá luật&f, v.v bạn có thể dùng &6/tocao&f để tố cáo họ cho &6staff."
     - "&aChúc bạn có quãng thời gian vui vẻ trong server nhé!!!"
-    - ""
+    - " "
