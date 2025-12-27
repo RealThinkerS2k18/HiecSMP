@@ -1,0 +1,93 @@
+# FILE: menus.yml
+# Hướng dẫn Action:
+# - "player: <lệnh>"  -> Người chơi chạy lệnh
+# - "console: <lệnh>" -> Console chạy lệnh (%player% là tên người chơi)
+# - "message: <text>" -> Gửi tin nhắn
+# - "menu: <id>"      -> Mở menu khác
+# - "close"           -> Đóng menu
+# - "sound: <sound>"  -> Phát âm thanh (VD: ENTITY_PLAYER_LEVELUP)
+
+# --- MENU CHÍNH (ID: main) ---
+main:
+  title: "&0&lHIEC SMP &8| &nMenu Chính"
+  rows: 3
+  items:
+    # Item trang trí (Kính viền)
+    border_1:
+      slot: 0
+      material: BLACK_STAINED_GLASS_PANE
+      name: "&7"
+    border_2:
+      slot: 8
+      material: BLACK_STAINED_GLASS_PANE
+      name: "&7"
+    
+    # Nút mở Menu Warp (Menu con)
+    warp_menu:
+      slot: 11
+      material: ENDER_EYE
+      name: "&e&lDỊCH CHUYỂN"
+      lore:
+        - "&7Danh sách các khu vực"
+        - "&7trong máy chủ."
+        - ""
+        - "&a▶ Click để mở"
+      action: "menu: warps" # Mở menu có ID là 'warps' bên dưới
+      
+    # Nút nhận quà hàng ngày (Ví dụ chạy lệnh console)
+    daily_reward:
+      slot: 13
+      material: CHEST_MINECART
+      name: "&b&lQUÀ HÀNG NGÀY"
+      lore:
+        - "&7Nhận phần thưởng điểm danh."
+        - ""
+        - "&e▶ Click để nhận"
+      action: "console: give %player% diamond 1" 
+
+    # Nút Discord (Gửi tin nhắn)
+    discord:
+      slot: 15
+      material: PAPER
+      name: "&9&lDISCORD"
+      lore:
+        - "&7Tham gia cộng đồng ngay!"
+      action: "message: &eLink Discord: &fhttps://discord.gg/hiecsmp"
+
+    # Nút đóng
+    close:
+      slot: 22
+      material: BARRIER
+      name: "&cĐóng Menu"
+      action: "close"
+
+# --- MENU WARP (ID: warps) ---
+warps:
+  title: "&8» &3Chọn địa điểm"
+  rows: 1
+  items:
+    spawn:
+      slot: 2
+      material: GRASS_BLOCK
+      name: "&aSpawn"
+      lore:
+        - "&7Về sảnh chính."
+      action: "player: spawn"
+    
+    shop:
+      slot: 4
+      material: EMERALD
+      name: "&aKhu Mua Sắm"
+      action: "player: warp shop"
+    
+    pvp:
+      slot: 6
+      material: DIAMOND_SWORD
+      name: "&cĐấu Trường PvP"
+      action: "player: warp pvp"
+
+    back:
+      slot: 8
+      material: ARROW
+      name: "&cQuay lại"
+      action: "menu: main" # Quay về menu chính
