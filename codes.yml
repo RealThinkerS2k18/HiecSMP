@@ -74,13 +74,11 @@ TETO:
     - "XP:401"               # Cộng 500 XP
     - "ITEM:BREAD 32"
 
-# Tên mã code (người chơi nhập /code VUKHI_VIP)
 TETO1:
-  # Giới hạn mỗi người chỉ nhập được 1 lần
+  # Giới hạn mỗi người chỉ nhập được 3 lần
   limit-player: 3
   # Yêu cầu phải có 1 ô trống trong túi đồ
   require-empty-slot: true
-  ip-check: false
   message: "&cBạn nhận được 41 Baguette (đơn giản vì Teto thích Baguette)"
   rewards:
     # 1. PHẦN THƯỞNG ITEM CUSTOM (Chi tiết bên dưới)
