@@ -91,3 +91,21 @@ TETO1:
     - "TITLE:&c&lTETO!;&eBạn đã bị Teto-ed!"
     # 4. Thông báo Actionbar
     - "ACTIONBAR:&a+401$ và 41&6 Baguette&f vào túi đồ"
+    
+TETO2:
+  # Giới hạn mỗi người chỉ nhập được 3 lần
+  limit-player: 3
+  ip-check: false
+  # Yêu cầu phải có 1 ô trống trong túi đồ
+  require-empty-slot: true
+  message: "&cBạn nhận được 41 Baguette (đơn giản vì Teto thích Baguette)"
+  rewards:
+    # 1. PHẦN THƯỞNG ITEM CUSTOM (Chi tiết bên dưới)
+    # Cấu trúc: ITEM:<MATERIAL> <các_thuộc_tính>
+    - "ITEM:BREAD amount:41 name:&6&lBaguette lore:&fBánh_mì_&6Baguette&f_của&c_Teto&r|&c♦_Độ_hiếm:_&eHuyền_Thoại enchant:looting:1 unbreakable:true glow:true"
+    # 2. Phần thưởng phụ (Tiền)
+    - "MONEY:401"
+    # 3. Thông báo Title
+    - "TITLE:&c&lTETO!;&eBạn đã bị Teto-ed!"
+    # 4. Thông báo Actionbar
+    - "ACTIONBAR:&a+401$ và 41&6 Baguette&f vào túi đồ"
