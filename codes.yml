@@ -77,14 +77,14 @@ TETO:
 # Tên mã code (người chơi nhập /code VUKHI_VIP)
 TETO1:
   # Giới hạn mỗi người chỉ nhập được 1 lần
-  limit-player: 1
+  limit-player: 3
   # Yêu cầu phải có 1 ô trống trong túi đồ
   require-empty-slot: true
   message: "&cBạn nhận được 41 Baguette (đơn giản vì Teto thích Baguette)"
   rewards:
     # 1. PHẦN THƯỞNG ITEM CUSTOM (Chi tiết bên dưới)
     # Cấu trúc: ITEM:<MATERIAL> <các_thuộc_tính>
-    - "ITEM:BREAD amount:41 name:&6&lBaguette lore:&fBánh mì &6Baguette&f của&c Teto&r|&c♦_Độ_hiếm:_&eHuyền_Thoại enchant:looting:1 unbreakable:true glow:true"
+    - "ITEM:BREAD amount:41 name:&6&lBaguette lore:&fBánh_mì_&6Baguette&f_của&c_Teto&r|&c♦_Độ_hiếm:_&eHuyền_Thoại enchant:looting:1 unbreakable:true glow:true"
     # 2. Phần thưởng phụ (Tiền)
     - "MONEY:401"
     # 3. Thông báo Title
