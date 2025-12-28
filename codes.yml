@@ -80,6 +80,7 @@ TETO1:
   limit-player: 1
   # Yêu cầu phải có 1 ô trống trong túi đồ
   require-empty-slot: true
+  message: "&cBạn nhận được 41 Baguette (đơn giản vì Teto thích Baguette)"
   rewards:
     # 1. PHẦN THƯỞNG ITEM CUSTOM (Chi tiết bên dưới)
     # Cấu trúc: ITEM:<MATERIAL> <các_thuộc_tính>
