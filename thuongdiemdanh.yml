@@ -1,0 +1,23 @@
+rewards:
+  # CÁCH 1: Viết kiểu MSG riêng
+  1:
+    msg: "&aBạn đã điểm danh ngày &e%day% &athành công, nhận &e1000$&a!"
+    items:
+      - "MONEY:1000"
+      - "ITEM:BREAD 5"
+
+  # CÁCH 2: Viết kiểu List cũ (Nhanh gọn, dùng msg mặc định)
+  2:
+    - "MONEY:2000"
+    - "XP:100"
+
+  # Ngày đặc biệt
+  7:
+    msg: "&6&lWOW! &eBạn đã đạt chuỗi &6%day% ngày&e! Nhận quà KHỦNG!"
+    items:
+      - "MONEY:10000"
+      - "ITEM:DIAMOND 5"
+
+  # Mặc định cho các ngày khác
+  default:
+    - "MONEY:500"
