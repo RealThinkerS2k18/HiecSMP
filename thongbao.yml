@@ -1,7 +1,27 @@
-# Thời gian giữa các lần thông báo (Phút)
-broadcast-after: 3
+# ==========================================================
+# FILE CẤU HÌNH THÔNG BÁO TỰ ĐỘNG (AUTO BROADCAST)
+# ==========================================================
 
+# Thời gian giữa các lần phát thông báo (Tính bằng PHÚT).
+# Ví dụ: Để 5 nghĩa là cứ 5 phút server sẽ phát 1 dòng tin nhắn.
+broadcast-after: 5
+
+# Danh sách các tin nhắn sẽ phát
 msg:
-  - "&#00D2FF&lH&#36D6FD&lI&#6CDAFB&lE&#A3F8FF&lC &fBạn có thể dùng &e/menu &fđể mở bảng điều khiển."
-  - "&#00D2FF&lH&#36D6FD&lI&#6CDAFB&lE&#A3F8FF&lC &fĐừng quên vote server để nhận quà nhé!"
-  - "&#00D2FF&lH&#36D6FD&lI&#6CDAFB&lE&#A3F8FF&lC &fTuyệt đối không sử dụng &cHack/Mod&f gian lận."
+  # Tin nhắn 1: Chào mừng (Dùng %player% để hiện tên người chơi)
+  - "&eChào mừng &b%player% &eđang chơi tại &6&lHiecSMP&e! Chúc bạn chơi vui vẻ."
+
+  # Tin nhắn 2: Kêu gọi tham gia Discord
+  - "&9&lDISCORD &8» &fTham gia cộng đồng tại: &b&ndiscord.gg/hiecsmp"
+
+  # Tin nhắn 3: Nhắc nhở Vote (Hỗ trợ xuống dòng bằng dấu | )
+  - "&a&lVOTE &8» &fĐừng quên Vote cho server để nhận Key và Tiền!|&7Gõ lệnh: &e/vote &7để lấy link."
+
+  # Tin nhắn 4: Cảnh báo Hack/Cheat
+  - "&c&lCẢNH BÁO &8» &fTuyệt đối không sử dụng &4Hack/Cheat&f.|&fNếu phát hiện vi phạm, hãy dùng &e/tocao <tên> <lý do>&f."
+
+  # Tin nhắn 5: Quảng cáo Shop/Rank
+  - "&6&lDONATE &8» &fBạn có thể mua Rank ủng hộ server tại: &e&nshop.hiecsmp.net"
+
+  # Tin nhắn 6: Hướng dẫn cơ bản
+  - "&b&lHƯỚNG DẪN &8» &fNgười mới? Hãy dùng lệnh &e/menu &fđể xem các chức năng."
