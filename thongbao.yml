@@ -9,19 +9,19 @@ broadcast-after: 5
 # Danh sách các tin nhắn sẽ phát
 msg:
   # Tin nhắn 1: Chào mừng (Dùng %player% để hiện tên người chơi)
-  - "&eChào mừng &b%player% &eđang chơi tại &6&lHiecSMP&e! Chúc bạn chơi vui vẻ."
+  - "&eChào mừng &b%player% &eđang chơi tại &6&lHiecSMP&r&e! Chúc bạn chơi vui vẻ."
 
   # Tin nhắn 2: Kêu gọi tham gia Discord
-  - "&9&lDISCORD &8» &fTham gia cộng đồng tại: &b&ndiscord.gg/hiecsmp"
+  - "&9&lDISCORD &8» &rTham gia cộng đồng tại: &b&ndiscord.gg/hiecsmp"
 
   # Tin nhắn 3: Nhắc nhở Vote (Hỗ trợ xuống dòng bằng dấu | )
-  - "&a&lVOTE &8» &fĐừng quên Vote cho server để nhận Key và Tiền!|&7Gõ lệnh: &e/vote &7để lấy link."
+  - "&a&lVOTE &8» &rĐừng quên Vote cho server để nhận Key và Tiền!|&7Gõ lệnh: &e/vote &7để lấy link."
 
   # Tin nhắn 4: Cảnh báo Hack/Cheat
-  - "&c&lCẢNH BÁO &8» &fTuyệt đối không sử dụng &4Hack/Cheat&f.|&fNếu phát hiện vi phạm, hãy dùng &e/tocao <tên> <lý do>&f."
+  - "&c&lCẢNH BÁO &8» &rTuyệt đối không sử dụng &4Hack/Cheat&f.|&fNếu phát hiện vi phạm, hãy dùng &e/tocao <tên> <lý do>&f."
 
   # Tin nhắn 5: Quảng cáo Shop/Rank
-  - "&6&lDONATE &8» &fBạn có thể mua Rank ủng hộ server tại: &e&nshop.hiecsmp.net"
+  - "&6&lDONATE &8» &rBạn có thể mua Rank ủng hộ server tại: &e&nshop.hiecsmp.net"
 
   # Tin nhắn 6: Hướng dẫn cơ bản
-  - "&b&lHƯỚNG DẪN &8» &fNgười mới? Hãy dùng lệnh &e/menu &fđể xem các chức năng."
+  - "&b&lHƯỚNG DẪN &8» &rNgười mới? Hãy dùng lệnh &e/menu &fđể xem các chức năng."
