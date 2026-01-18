@@ -1,0 +1,13 @@
+# ID của danh hiệu
+DAIGIA:
+  display: "&8[&e&l$$$&8]"
+  permission: "core.title.daigia"
+  description: "Dành cho người giàu nhất server"
+
+SATTHU:
+  display: "&8[&c☠&8]"
+  permission: "core.title.satthu"
+
+TOP1:
+  display: "&8[&c&lTOP 1&8]"
+  permission: "core.title.top1"
