@@ -11,3 +11,7 @@ SATTHU:
 TOP1:
   display: "&8[&c&lTOP 1&8]"
   permission: "core.title.top1"
+
+HOCBA:
+  display: "&#545EB6&lH&#5487CB&lỌ&#54B1DF&lC &#72CDF5&lB&#90C0F5&lÁ&r"
+  permission: "core.title.hocba"
