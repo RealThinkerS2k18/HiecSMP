@@ -79,9 +79,9 @@ main:
     toggletp:
       slot: 28
       material: ENDER_PEARL
-      name: "&a&lHƯỚNG DẪN"
+      name: "&a&lBẬT/TẮT TPA"
       lore:
-        - "&fXem cách chơi nếu bạn là người mới!"
+        - "&fBật tắt nhận TPA!"
       action: "player: tptoggle"
     wip:
       slot: 34
