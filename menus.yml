@@ -141,7 +141,7 @@ shopssub:
       lore:
         - "&fBán &btất cả &fnhững thứ"
         - "&fcó thể trong túi đồ bạn"
-      action: "player: warp pvp"
+      action: "player: sell all"
   
     back:
       slot: 24
