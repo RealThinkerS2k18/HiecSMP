@@ -15,3 +15,11 @@ TOP1:
 HOCBA:
   display: "&#545EB6&lH&#5487CB&lỌ&#54B1DF&lC &#72CDF5&lB&#90C0F5&lÁ&r"
   permission: "core.title.hocba"
+
+DONATOR:
+  display: "&#93FCA0&lD&#93FCA0&lO&#76FA80&lN&#58F861&lA&#3BF741&lT&#1DF522&lO&#00F302&lR&r"
+  permission: "core.title.donator"
+
+UITK:
+  display: "&#3A56F8&lU&#4270F8&lI&#4B89F9&lT&#53A3F9&lK&r"
+  permission: "core.title.uitk"
