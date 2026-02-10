@@ -4,7 +4,7 @@
 
 # Thời gian giữa các lần phát thông báo (Tính bằng PHÚT).
 # Ví dụ: Để 5 nghĩa là cứ 5 phút server sẽ phát 1 dòng tin nhắn.
-broadcast-after: 5
+broadcast-after: 3
 
 # Danh sách các tin nhắn sẽ phát
 msg:
