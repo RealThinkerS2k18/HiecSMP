@@ -9,7 +9,7 @@ broadcast-after: 3
 # Danh sách các tin nhắn sẽ phát
 msg:
   # Tin nhắn 1: Chào mừng (Dùng %player% để hiện tên người chơi)
-  - "&eChào mừng &b%player% &eđang chơi tại &6&lHiecSMP&r&e! Chúc bạn chơi vui vẻ."
+  - "&eChào mừng &b%player% &eđang chơi tại &#54DAF4&lU&#54D2F0&lI&#54CBEC&lT &#54BBE5&lK&#54B3E1&lN&#54ACDD&lO&#54A4D9&lW&#549CD5&lL&#5494D1&lE&#548DCD&lD&#5485C9&lG&#547DC6&lE &#546EBE&lS&#5466BA&lM&#545EB6&lP&r&e! Chúc bạn chơi vui vẻ."
 
   # Tin nhắn 2: Kêu gọi tham gia Discord
   - "&9&lDISCORD &8» &rTham gia cộng đồng tại: &b&ndiscord.gg/hiecsmp"
