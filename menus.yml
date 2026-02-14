@@ -59,7 +59,7 @@ main:
       name: "&9&lDISCORD"
       lore:
         - "&7Tham gia cộng đồng ngay!"
-      action: "message: &eLink Discord UIT: &fhttps://discord.gg/rdqewZJkgw &e| Link Discord UIT Knowledge: &fhttps://discord.gg/pFMpsQA6r4"
+      action: "message: &eLink Discord UIT: &fhttps://discord.gg/rdqewZJkgw \n Link Discord UIT Knowledge: &fhttps://discord.gg/pFMpsQA6r4"
       
     luat:
       slot: 20
