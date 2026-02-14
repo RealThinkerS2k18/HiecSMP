@@ -12,7 +12,7 @@ msg:
   - "&eChào mừng &b%player% &eđang chơi tại &#54DAF4&lU&#54D2F0&lI&#54CBEC&lT &#54BBE5&lK&#54B3E1&lN&#54ACDD&lO&#54A4D9&lW&#549CD5&lL&#5494D1&lE&#548DCD&lD&#5485C9&lG&#547DC6&lE &#546EBE&lS&#5466BA&lM&#545EB6&lP&r&e! Chúc bạn chơi vui vẻ."
 
   # Tin nhắn 2: Kêu gọi tham gia Discord
-  - "&9&lDISCORD &8» &rTham gia cộng đồng tại: &b&ndiscord.gg/hiecsmp"
+  - "&9&lDISCORD &8» &rTham gia cộng đồng UIT tại: &b&ndiscord.gg/rdqewZJkgw"
 
   # Tin nhắn 3: Nhắc nhở Vote (Hỗ trợ xuống dòng bằng dấu | )
   - "&a&lVOTE &8» &rĐừng quên Vote cho server để nhận Key và Tiền!|&7Gõ lệnh: &e/vote &7để lấy link."
@@ -21,7 +21,6 @@ msg:
   - "&c&lCẢNH BÁO &8» &rTuyệt đối không sử dụng &4Hack/Cheat&f.|&fNếu phát hiện vi phạm, hãy dùng &e/tocao <tên> <lý do>&f."
 
   # Tin nhắn 5: Quảng cáo Shop/Rank
-  - "&6&lDONATE &8» &rBạn có thể mua Rank ủng hộ server tại: &e&nshop.hiecsmp.net"
 
   # Tin nhắn 6: Hướng dẫn cơ bản
   - "&b&lHƯỚNG DẪN &8» &rNgười mới? Hãy dùng lệnh &e/menu &fđể xem các chức năng."
