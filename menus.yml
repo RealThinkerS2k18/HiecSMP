@@ -124,7 +124,7 @@ shopssub:
       name: "&b&lCửa hàng máy chủ"
       lore:
         - "&fMở cửa hàng của máy chủ."
-      action: "shop"
+      action: "player: shop"
     
     ah:
       slot: 13
